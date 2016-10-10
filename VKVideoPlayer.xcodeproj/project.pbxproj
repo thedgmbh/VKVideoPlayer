@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12907384268C4DA98E365BB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F1449F68D8472AB23A44B7 /* libPods.a */; };
+		12ADC8DF1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ADC8DD1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m */; };
 		1B1848CC18F3D7B70020F2EE /* VKVideoPlayerCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1848CB18F3D7B70020F2EE /* VKVideoPlayerCaption.m */; };
 		1B1848CF18F3D8CB0020F2EE /* VKVideoPlayerExternalMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1848CE18F3D8CB0020F2EE /* VKVideoPlayerExternalMonitor.m */; };
 		1B1848D518F3DFA30020F2EE /* VKVideoPlayerAirPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1848D418F3DFA30020F2EE /* VKVideoPlayerAirPlay.m */; };
@@ -82,6 +83,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12ADC8DD1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKVideoPlayerCaptionVTT.m; sourceTree = "<group>"; };
+		12ADC8DE1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKVideoPlayerCaptionVTT.h; sourceTree = "<group>"; };
 		14F1449F68D8472AB23A44B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		150BEB98AFEA4FF199BA4AA6 /* libPods-VKVideoPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKVideoPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1848CA18F3D7B70020F2EE /* VKVideoPlayerCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKVideoPlayerCaption.h; path = Classes/ios/VKVideoPlayerCaption.h; sourceTree = SOURCE_ROOT; };
@@ -205,6 +208,8 @@
 				1B1848CB18F3D7B70020F2EE /* VKVideoPlayerCaption.m */,
 				1B1848D618F3DFC40020F2EE /* VKVideoPlayerCaptionSRT.h */,
 				1B1848D718F3DFC40020F2EE /* VKVideoPlayerCaptionSRT.m */,
+				12ADC8DE1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.h */,
+				12ADC8DD1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m */,
 			);
 			name = Caption;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				1B1848CF18F3D8CB0020F2EE /* VKVideoPlayerExternalMonitor.m in Sources */,
 				1BB6AE3018EE9C9900767FA3 /* VKVideoPlayerLayerView.m in Sources */,
 				1BB6AE2118EE690300767FA3 /* VKVideoPlayer.m in Sources */,
+				12ADC8DF1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m in Sources */,
 				1BB6ADC718EE626A00767FA3 /* main.m in Sources */,
 				1B1848DB18F400640020F2EE /* VKVideoPlayerTrack.m in Sources */,
 				1B1848CC18F3D7B70020F2EE /* VKVideoPlayerCaption.m in Sources */,
