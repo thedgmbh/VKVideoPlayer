@@ -1,7 +1,7 @@
 platform :ios, '5.1.1'
 pod 'DTCoreText', '~> 1.6.11'
 pod 'AFNetworking', '1.3.3'
-pod 'CocoaLumberjack', '~> 1.7.0'
+pod 'CocoaLumberjack'
 pod 'VKFoundation', '0.1.1'
 pod 'CocoaHTTPServer'
 
